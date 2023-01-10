@@ -18,7 +18,6 @@ class VideoCamera(object):
     
     def get_frame(self):
         success, image = self.video.read()
-        image=cv2.resize(image,(840,640))
     
         
        
